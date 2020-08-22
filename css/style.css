@@ -43,10 +43,25 @@ body {
 
 }
 
-#navbar ul{
+#navbar ul {
     height : 88%;
     padding: 0;
     overflow-y: auto;
     overflow-x: hidden;
 
+}
+
+header {
+margin: 10px;
+text-align: center;
+font-size: 25px;
+font-weight: 500;
+}
+
+#main-doc {
+position: absolute;
+padding: 20px;
+margin-left: 305px;
+margin-bottom: 105px;
+font-size: 20px;
 }
