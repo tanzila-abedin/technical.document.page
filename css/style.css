@@ -9,7 +9,7 @@ body {
 #title {
     display: flex;
     justify-content: center;
-    padding-left: 20%;
+    padding-left: 25%;
     background-color: rgb(132, 179,218);
     color: honeydew;
 }
@@ -65,3 +65,34 @@ margin-left: 305px;
 margin-bottom: 105px;
 font-size: 20px;
 }
+
+#main-doc header {
+    text-align: left;
+    margin-bottom: 5px;
+    padding: 10px;
+    font-size: 20px;
+  }
+  
+  section li {
+    margin: 15px 0px 0px 20px;
+  }
+  
+  code {
+    display: block;
+    text-align: left;
+    white-space: pre;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    background-color: #dbeefa;
+    padding: 15px;
+    margin: 10px;
+  }
+  
+  @media (max-width: 400px) {
+    #main-doc {
+      margin-left: -10px;
+    }
+
+  }
