@@ -11,20 +11,96 @@
     <main id="main-doc">
 
       <section class="main-section" id="Python_Intro">
-        <header>Python_Intro</header>
+        <header><h3>Python_Intro</h3>/header>
+          <p>Python is a popular programming language. It was created by Guido van Rossum, and released in 1991.It is used for:</p>
+           <li> web development (server-side) </li>
+           <li> software development,</li>
+           <li> mathematics,</li>
+           <li> system scripting.</li>
+
+          <h4>Python Syntax</h4>
+           <p>As we learned in the previous page, Python syntax can be executed by writing directly in the Command Line:</p>
+          <code>
+           &lt;>>> print("Hello, World!")
+           &lt;Hello, World!
+          </code>
+          <br>
+          <p>Or by creating a python file on the server, using the .py file extension, and running it in the Command Line:</p>
+          <code>
+            &lt;C:\Users\Your Name>python myfile.py
+          </code>
+        
       </section>
 
       <section class="main-section" id="Python_Variables" >
-        <header>Python_Variables</header>
+        <header><h3>Python_Variables<h3></header>
+          <p>Variables are containers for storing data values.Unlike other programming languages, Python has no command for declaring a variable.
+            A variable is created the moment you first assign a value to it.<br>
+            EXAMPLE :</p> 
+          <code>
+            &lt;x = 5
+            &lt;y = "John"
+            &lt;print(x)
+            &lt;print(y)
+          </code>
       </section>
+
       <section class="main-section" id="Python_Data_Types">
-        <header>Python_Data_Types</header>
+        <header><h3>Python_Data_Types<h3></header>
+          <p>In programming, data type is an important concept.Variables can store data of different types, and different types can do different things.
+            Python has the following data types built-in by default, in these categories: </p>
+          <code>
+            Text Type:	    &lt; str <br>
+            Numeric Types:  &lt; int, float, complex <br>
+            Sequence Types: &lt; list, tuple, range <br>
+            Mapping Type:	  &lt; dict <br>
+            Set Types:	    &lt; set, frozenset <br>
+            Boolean Type:   &lt; bool <br>
+            Binary Types:	  &lt; bytes, bytearray, memoryview
+          </code>
+          <p>You can get the data type of any object by using the type() function:
+            <br>
+            EXAMPLE:
+          </p>
+            <code>
+              x = 5
+              print(type(x))
+            </code>
+  
       </section>
+
       <section class="main-section" id="Python_Numbers">
-        <header>Python_Numbers</header>
+        <header><h3>Python_Numbers</h3></header>
+        <p>There are three numeric types in Python:
+          <li>int</li>
+          <li>float</li>
+          <li>complex</li> <br>
+         Variables of numeric types are created when you assign a value to them:</p> <br>
+         <code>
+           &lt; x = 1    # int
+           &lt; y = 2.8  # float
+           &lt; z = 1j   # complex
+         </code>  
+
       </section>
+
       <section class="main-section" id="Python_Json">
-        <header>Python_Json</header>
+        <header><h3></h3>Python_Json</h3></header>
+        <p>Python has a built-in package called json, which can be used to work with JSON data.</p>
+        <h4>Convert from JSON to Python:</h4>
+        <p>If you have a Python object, you can convert it into a JSON string by using the json.dumps() method.</p>
+       <code>
+         &lt; import json
+
+         &lt;  # some JSON:
+         &lt;  x =  '{ "name":"John", "age":30, "city":"New York"}'
+
+         &lt;  # parse x:
+         &lt;  y = json.loads(x)
+
+         &lt;  # the result is a Python dictionary:
+         &lt;  print(y["age"])
+       </code>
       </section>
 
     </main>
